@@ -1,0 +1,11 @@
+.welcomeBlock {
+background-color: honeydew;
+ border: 15px solid gray;
+ justify-content: center;
+ display: flex;
+ width: 50%;
+ height: fit-content;
+ padding: 15px;
+ margin: auto;
+ 
+}
