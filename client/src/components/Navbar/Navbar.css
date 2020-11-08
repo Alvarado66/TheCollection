@@ -1,0 +1,33 @@
+a {
+    text-decoration: none;
+}
+
+li {
+    list-style-type: none;
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    min-height: 10vh;
+    align-items: center;
+    font-family: sans-serif;
+    background-color: #939BE6;
+    color: white;
+}
+
+nav .nav-links {
+    display: flex;
+    justify-content: space-around;
+    width: 50%;
+}
+
+nav .nav-links a {
+    font-size: 30px;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+nav .nav-links a:hover {
+    border-bottom: 5px solid white;
+}

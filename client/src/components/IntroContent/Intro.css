@@ -1,11 +1,15 @@
 .welcomeBlock {
-background-color: honeydew;
- border: 15px solid gray;
+ background-color: #939BE6;
+ border: 15px solid #939BE6;;
+ color: white;
  justify-content: center;
  display: flex;
- width: 50%;
+ width: auto;
  height: fit-content;
  padding: 15px;
  margin: auto;
+ font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+ font-style: italic;
+ font-size: x-large;
  
 }

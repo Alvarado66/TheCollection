@@ -2,14 +2,14 @@ import React from 'react';
 import "./Intro.css";
 
 function Intro() {
-    return(
+    return (
         <div className="welcomeBlock">
             <div className="row">
-                
+
             </div>
-            Welcome To Elevated Rustic
+            Welcome To "Just Pick!"
         </div>
     )
-}
+};
 
 export default Intro;
