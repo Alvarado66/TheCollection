@@ -11,6 +11,7 @@ function Navbar() {
             <li><a>About Me</a></li>
             <li><a>Comments</a></li>
         </ul>
+        <i className="fas fa-bars burgerMenu"></i>
         </nav>
         </>
     );
