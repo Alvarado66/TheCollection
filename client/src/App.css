@@ -22,6 +22,13 @@ nav {
   color: white;
 }
 
+nav .brandLogo {
+  font-size: 25px;
+  font-weight: 800px;
+  text-transform: uppercase;
+  font-family: sans-serif;
+}
+
 nav .nav-links {
   display: flex;
   justify-content: space-around;
