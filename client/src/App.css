@@ -4,12 +4,12 @@
   box-sizing: border-box;
 }
 
-a {
-  text-decoration: none;
-}
-
 li {
   list-style-type: none;
+}
+
+a {
+  text-decoration: none;
 }
 
 nav {
@@ -41,6 +41,7 @@ nav .nav-links a:hover {
 nav .burgerMenu {
   font-size: 35px;
   display: none;
+  cursor: pointer;
 }
 
 
@@ -58,11 +59,19 @@ nav .burgerMenu {
     background-color: #939BE6;
     padding: 25px;
     width: 40%;
+    transform: translateX(-500px);
+    transition: 0.3s ease-in-out;
   }
 
   nav .nav-links li {
     padding: 25px;
-    border-bottom: 5px solid white;
+    border-bottom: 2px solid white;
+    transition: 0.5s ease;
+  }
+
+  nav .nav-links li:last-of-type {
+    
+    border-bottom: 0px solid white;
   }
 
   nav .nav-links a:hover {
