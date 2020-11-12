@@ -23,16 +23,18 @@ nav {
 }
 
 nav .brandLogo {
-  font-size: 25px;
-  font-weight: 800px;
-  text-transform: uppercase;
-  font-family: sans-serif;
+  display: flex;
+  justify-content: inherit;
+  width: 50%;
+  font-size: xx-large;
+  font-weight: 700;
 }
 
 nav .nav-links {
   display: flex;
-  justify-content: space-around;
+  justify-content: space-evenly;
   width: 50%;
+  
 }
 
 nav .nav-links a {
@@ -42,7 +44,7 @@ nav .nav-links a {
 }
 
 nav .nav-links a:hover {
-  border-bottom: 5px solid white;
+  border-bottom: 3px solid white;
 }
 
 nav .burgerMenu {
@@ -52,7 +54,7 @@ nav .burgerMenu {
 }
 
 
-@media all and (max-width: 768px) {
+@media all and (max-width: 780px) {
   nav .burgerMenu {
     display: block;
   }
@@ -73,7 +75,7 @@ nav .burgerMenu {
   nav .nav-links li {
     padding: 25px;
     border-bottom: 2px solid white;
-    transition: 0.5s ease;
+    
   }
 
   nav .nav-links li:last-of-type {
@@ -84,21 +86,6 @@ nav .burgerMenu {
   nav .nav-links a:hover {
     border-bottom: 0px solid white;
 }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
 }
 
 @keyframes App-logo-spin {
