@@ -5,9 +5,10 @@ function Intro() {
     return (
         <div className="welcomeBlock">
             <div className="row">
-
             </div>
-            Welcome To "Just Pick!"
+            <h1>
+                Welcome To "Just Pick!"
+            </h1>
         </div>
     )
 };

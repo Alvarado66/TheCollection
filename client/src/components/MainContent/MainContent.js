@@ -1,14 +1,27 @@
 import React from 'react';
-import Button from 'react-bootstrap/Button';
+import { Jumbotron } from 'react-bootstrap';
+import { Container } from 'react-bootstrap';
+import './MainContent.css'
 
-function justPick() {
+
+function JustPick() {
     return (
-        <>
-            <div className="startSearch">
-                <Button>Hello</Button>
-            </div>
-        </>
+        <div className="mainJumbo">
+            <Jumbotron fluid className="jumboBack">
+                <Container className="mainContainer">
+                    <h1>Instructions</h1>
+                    <p>
+                        Need help deciding where to eat?
+                        Or What to do?
+                    </p>
+                    <p>
+                        Fill in your ideas down below and let's get started!
+                    </p>
+                </Container>
+            </Jumbotron>
+        </div>
+
     );
 }
 
-export default justPick;
+export default JustPick;

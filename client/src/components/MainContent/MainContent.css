@@ -1,0 +1,33 @@
+.startSearch {
+    display: flex;
+    justify-content: center;
+    
+}
+
+.mainJumbo {
+    justify-content: center;
+    margin: 0 auto;
+}
+
+.jumboBack {
+    background-color: #55E6ED;
+}
+
+.mainContainer {
+    background-color: #55E6ED;
+}
+
+.mainJumbo h1 {
+    justify-content: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bolder;
+    color: white;
+    font-weight: 900;
+}
+
+.mainJumbo p {
+    font-family: 'Vidaloka', serif;
+    font-size: large;
+    font-weight: 900;
+    color: white;
+}
