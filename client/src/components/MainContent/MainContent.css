@@ -5,6 +5,7 @@
 }
 
 .mainJumbo {
+    overflow-wrap: normal;
     justify-content: center;
     margin: 0 auto;
 }
@@ -18,8 +19,7 @@
 }
 
 .mainJumbo h1 {
-    margin-left: 400px;
-    justify-content: center;
+    margin-left: 8em;
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-weight: bolder;
     color: white;
@@ -33,3 +33,15 @@
     font-weight: 900;
     color: white;
 }
+
+.btn-flat {
+    background-color: rgb(131, 255, 234);
+    font-family: 'Vidaloka' serif;
+}
+
+.letsGo {
+    color: rgb(3, 217, 249);
+    margin-left: 9em;
+    font-size: 50px;
+}
+

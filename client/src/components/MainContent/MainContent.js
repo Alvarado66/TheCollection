@@ -1,6 +1,5 @@
 import React from 'react';
-import { Jumbotron } from 'react-bootstrap';
-import { Container } from 'react-bootstrap';
+import { Jumbotron, Button, Container } from 'react-bootstrap';
 import './MainContent.css'
 
 
@@ -17,6 +16,7 @@ function JustPick() {
                     <p>
                         Fill in your ideas down below and let's get started!
                     </p>
+                    <Button className ="letsGo" variant="flat">Let's Go!</Button>
                 </Container>
             </Jumbotron>
         </div>
