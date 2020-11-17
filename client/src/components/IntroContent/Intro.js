@@ -7,7 +7,7 @@ function Intro() {
             <div className="row">
             </div>
             <h1>
-                Welcome To "Just Pick!"
+                Welcome To "Just Pick! "
             </h1>
         </div>
     )

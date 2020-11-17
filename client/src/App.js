@@ -8,13 +8,13 @@ import JustPick from './components/MainContent/MainContent';
 
 function App() {
   return (
-   <>
-    <Intro />
-    <Navbar />
-    <JustPick />
-  </>
-  
-    
+    <>
+      <Intro />
+      <Navbar />
+      <JustPick />
+    </>
+
+
   )
 };
 

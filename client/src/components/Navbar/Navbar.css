@@ -26,8 +26,9 @@
     display: flex;
     justify-content: inherit;
     width: 50%;
-    font-size: xx-large;
+    font-size: 3em;
     font-weight: 700;
+    font-family: 'Pattaya', sans-serif;
   }
   
   nav .nav-links {
@@ -38,9 +39,10 @@
   }
   
   nav .nav-links a {
-    font-size: 25px;
+    font-size: 35px;
     font-weight: 500;
     cursor: pointer;
+    font-family: 'Pattaya', sans-serif;
   }
   
   nav .nav-links a:hover {
