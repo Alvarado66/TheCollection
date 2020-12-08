@@ -1,8 +1,7 @@
 import React, { Component } from 'react';
 import { Jumbotron, Button, Container } from 'react-bootstrap';
-import './MainContent.css'
 
-class JustPick extends Component {
+class StartBtn extends Component {
     state = {
         visible: true
     };
@@ -11,8 +10,9 @@ class JustPick extends Component {
         if (!this.state.visible) {
             return <div></div>;
         }
-
+    
         return (
+            
             <div className="mainJumbo">
                 <Jumbotron fluid className="jumboBack">
                     <Container className="mainContainer">
@@ -24,7 +24,7 @@ class JustPick extends Component {
                         <p>
                             Just click the button below and let's get started!
                         </p>
-                
+                        
                         <Button className ="letsGo" variant="flat" onClick={() => {this.setState({ visible: false})}}>Let's Go!</Button>
                     </Container>
                 </Jumbotron>
@@ -34,6 +34,4 @@ class JustPick extends Component {
     }
 };
 
-
-
-export default JustPick;
+export default StartBtn;
