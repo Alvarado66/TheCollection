@@ -5,6 +5,7 @@ import Intro from './components/IntroContent/Intro';
 import Navbar from './components/Navbar/Navbar';
 
 import StartBtn from './components/StartButton/StartButton';
+import NewChoices from './components/InputOptions/inputopt';
 
 class App extends Component {
   state = {
@@ -18,6 +19,7 @@ render() {
       <Intro />
       <Navbar />
       <StartBtn />
+      <NewChoices />
     </>
 
 
