@@ -1,0 +1,46 @@
+.startSearch {
+    display: flex;
+    justify-content: center;
+    
+}
+
+.mainJumbo {
+    overflow-wrap: normal;
+    justify-content: center;
+    margin: 0 auto;
+}
+
+.jumboBack {
+    background-color: #55E6ED;
+}
+
+.mainContainer {
+    background-color: #55E6ED;
+}
+
+.mainJumbo h1 {
+    margin-left: 8em;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bolder;
+    color: white;
+    font-weight: 900;
+}
+
+.mainJumbo p {
+    margin-left: 12.5em;
+    font-family: 'Vidaloka', serif;
+    font-size: large;
+    font-weight: 900;
+    color: white;
+}
+
+.btn-flat {
+    background-color: rgb(131, 255, 234);
+    font-family: 'Vidaloka' serif;
+}
+
+.letsGo {
+    color: rgb(3, 217, 249);
+    margin-left: 9em;
+    font-size: 50px;
+}

@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import { Jumbotron, Button, Container } from 'react-bootstrap';
+import './StartButton.css'
 
 class StartBtn extends Component {
     state = {
