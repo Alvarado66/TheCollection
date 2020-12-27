@@ -4,6 +4,9 @@ import './inputopt.css';
 
 
 function NewChoices() {
+
+    const choices = []
+
     return (
 
         <div className="userChoices">
@@ -12,6 +15,10 @@ function NewChoices() {
                 <Form.Control as="textarea" rows={3} />
                 <Button className='newOpt' variant='flat'>Add!</Button>
             </Form.Group>
+
+            <span className='tag'>Alex</span>
+            <span className='tag'>Alex</span>
+            <span className='tag'>Alex</span>
         </div>
 
 

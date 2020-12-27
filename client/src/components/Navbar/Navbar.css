@@ -24,8 +24,10 @@
   
   nav .brandLogo {
     display: flex;
-    justify-content: inherit;
+    justify-content: column;
+    align-items: center;
     width: 50%;
+    margin-left: 90px;
     font-size: 3em;
     font-weight: 700;
     font-family: 'Pattaya', sans-serif;

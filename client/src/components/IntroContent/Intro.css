@@ -2,12 +2,14 @@
  background-color: #55E6ED;
  border: 45px solid #55E6ED;
  color: white;
- justify-content: center;
  display: flex;
- width: auto;
- height: fit-content;
+ flex-direction: column;
+ align-items: center;
+ justify-content: center;
+ min-height: 50vh;
+ margin: 0;
  padding: 15px;
- margin: auto;
+ text-align: center;
  
 }
 

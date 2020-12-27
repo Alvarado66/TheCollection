@@ -1,7 +1,10 @@
 .userChoices {
-    width: fit-content;
-    border: 15px solid lavender;
-    padding: 50px;
-    margin: auto;
-    background-color: #55E6ED;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 50vh;
+    margin: 0;
+    padding: 15px;
+    text-align: center;
 }
