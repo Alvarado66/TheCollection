@@ -12,8 +12,8 @@ function NewChoices() {
         <div className="userChoices">
             <Form.Group controlId="exampleForm.ControlTextarea1">
                 <Form.Label>Please Add your Options Below: </Form.Label>
-                <Form.Control as="textarea" rows={3} />
-                <Button className='newOpt' variant='flat'>Add!</Button>
+                <Form.Control className="textarea" rows={3} />
+                <Button id="newOpt" variant='flat'>Add!</Button>
             </Form.Group>
 
             <span className='tag'>Alex</span>

@@ -26,7 +26,6 @@
 }
 
 .mainJumbo h1 {
-    /* margin-left: 8em; */
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-weight: bolder;
     color: white;
@@ -36,7 +35,6 @@
 }
 
 .mainJumbo p {
-    /* margin-left: 12.5em; */
     text-align: center;
     font-family: 'Vidaloka', serif;
     font-size: large;
@@ -59,6 +57,5 @@
 
 .letsGo {
     color: rgb(3, 217, 249);
-    /* margin-left: 9em; */
     font-size: 30px;
 }

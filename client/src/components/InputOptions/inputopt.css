@@ -1,4 +1,5 @@
 .userChoices {
+    box-sizing: border-box;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -7,4 +8,24 @@
     margin: 0;
     padding: 15px;
     text-align: center;
+    background-color: #55E6ED;
+}
+
+
+.textarea {
+    border: 0;
+    display: block;
+    background-color: white;
+    padding: 20px;
+    width: 100%;
+    height: 100%;
+
+}
+
+#newOpt {
+    margin-top: 10px;
+    font-family: 'Vidaloka' serif;
+    display: flex;
+    width: fit-content;
+    
 }

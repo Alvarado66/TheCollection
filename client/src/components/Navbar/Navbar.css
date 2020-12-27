@@ -14,7 +14,7 @@
   
   nav {
     display: flex;
-    justify-content: space-around;
+    justify-content: column;
     min-height: 10vh;
     align-items: center;
     font-family: sans-serif;
@@ -25,7 +25,6 @@
   nav .brandLogo {
     display: flex;
     justify-content: column;
-    align-items: center;
     width: 50%;
     margin-left: 90px;
     font-size: 3em;
