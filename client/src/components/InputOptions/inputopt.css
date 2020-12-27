@@ -22,10 +22,16 @@
 
 }
 
-#newOpt {
+.newOpt {
     margin-top: 10px;
     font-family: 'Vidaloka' serif;
-    display: flex;
-    width: fit-content;
+    width: 250px;
+    background-color: #B8BFBB;
+    
+}
+
+.newOpt:hover {
+    color: cornflowerblue;
+    background-color: white;
     
 }

@@ -25,7 +25,6 @@ class StartBtn extends Component {
                         <p>
                             Just click the button below and let's get started!
                         </p>
-
                         <Button className="letsGo" variant="flat" onClick={() => { this.setState({ visible: false }) }}>Let's Go!</Button>
                     </Container>
                 </Jumbotron>
