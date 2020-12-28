@@ -14,7 +14,7 @@
   
   nav {
     display: flex;
-    justify-content: center;
+    justify-content: row;
     min-height: 10vh;
     align-items: center;
     font-family: sans-serif;
@@ -25,9 +25,9 @@
   
   nav .brandLogo {
     display: flex;
-    justify-content: center;
-    width: 50%;
-    margin: auto;
+    justify-content: row;
+    width: 60%;
+    margin-left: 85px;
     font-size: 3em;
     font-weight: 700;
     font-family: 'Pattaya', sans-serif;
