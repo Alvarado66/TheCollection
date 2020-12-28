@@ -9,7 +9,7 @@ class StartBtn extends Component {
     };
 
     render() {
-        const optionsTable = this.state.visible ? "hide" : "show";
+        
         if (!this.state.visible) {
             return <NewChoices />;
         }
@@ -17,7 +17,6 @@ class StartBtn extends Component {
         return (
 
             <div className="mainJumbo">
-                
                 <Jumbotron fluid className="jumboBack">
                     <Container className="mainContainer">
                         <h1>Instructions</h1>
@@ -31,7 +30,6 @@ class StartBtn extends Component {
                         
                         <Button className="letsGo" variant="flat" onClick={() => { 
                             this.setState({ visible: !this.state.visible }) }}>Let's Go!
-                        {optionsTable}    
                         </Button>
                     </Container>
                 </Jumbotron>
