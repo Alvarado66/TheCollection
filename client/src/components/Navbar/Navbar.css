@@ -1,5 +1,5 @@
 * {
-    margin: 0;
+    margin: 0 auto;
     padding: 0;
     box-sizing: border-box;
   }
@@ -14,19 +14,20 @@
   
   nav {
     display: flex;
-    justify-content: column;
+    justify-content: center;
     min-height: 10vh;
     align-items: center;
     font-family: sans-serif;
-    background-color: #B8BFBB;
-    color: white;
+    background-color: #3E8FE6;
+    color: #94FFAB;
+    margin: 0 auto;
   }
   
   nav .brandLogo {
     display: flex;
-    justify-content: column;
+    justify-content: center;
     width: 50%;
-    margin-left: 90px;
+    margin: auto;
     font-size: 3em;
     font-weight: 700;
     font-family: 'Pattaya', sans-serif;
@@ -36,6 +37,7 @@
     display: flex;
     justify-content: space-evenly;
     width: 50%;
+    margin: 0 auto;
     
   }
   
@@ -44,10 +46,11 @@
     font-weight: 500;
     cursor: pointer;
     font-family: 'Pattaya', sans-serif;
+    margin: 0 auto;
   }
   
   nav .nav-links a:hover {
-    border-bottom: 3px solid white;
+    border-bottom: 3px solid #94FFAB;
   }
   
   nav .burgerMenu {

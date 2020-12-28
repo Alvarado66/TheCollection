@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import { Jumbotron, Button, Container } from 'react-bootstrap';
 import './StartButton.css'
+import NewChoices from '../InputOptions/inputopt';
 
 class StartBtn extends Component {
     state = {
@@ -8,13 +9,15 @@ class StartBtn extends Component {
     };
 
     render() {
+        const optionsTable = this.state.visible ? "hide" : "show";
         if (!this.state.visible) {
-            return <div></div>;
+            return <NewChoices />;
         }
 
         return (
 
             <div className="mainJumbo">
+                
                 <Jumbotron fluid className="jumboBack">
                     <Container className="mainContainer">
                         <h1>Instructions</h1>
@@ -25,7 +28,11 @@ class StartBtn extends Component {
                         <p>
                             Just click the button below and let's get started!
                         </p>
-                        <Button className="letsGo" variant="flat" onClick={() => { this.setState({ visible: false }) }}>Let's Go!</Button>
+                        
+                        <Button className="letsGo" variant="flat" onClick={() => { 
+                            this.setState({ visible: !this.state.visible }) }}>Let's Go!
+                        {optionsTable}    
+                        </Button>
                     </Container>
                 </Jumbotron>
             </div>

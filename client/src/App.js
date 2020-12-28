@@ -19,7 +19,7 @@ render() {
       <Intro />
       <Navbar />
       <StartBtn />
-      <NewChoices />
+      {/* <NewChoices /> */}
     </>
 
 

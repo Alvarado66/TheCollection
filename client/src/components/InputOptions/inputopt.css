@@ -8,7 +8,8 @@
     margin: 0;
     padding: 15px;
     text-align: center;
-    background-color: #55E6ED;
+    background-color: #3E8FE6;
+    color: #94FFAB;
 }
 
 
@@ -26,12 +27,13 @@
     margin-top: 10px;
     font-family: 'Vidaloka' serif;
     width: 250px;
-    background-color: #B8BFBB;
+    background-color: #3E8FE6;
+    color: white;
     
 }
 
 .newOpt:hover {
-    color: cornflowerblue;
-    background-color: white;
+    color: #3E8FE6;
+    background-color: #94FFAB;
     
 }
